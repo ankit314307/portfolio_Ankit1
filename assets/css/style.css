@@ -577,6 +577,26 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    #skills {
+        padding: 40px 30px;
+    }
+
+    #skills .section-title {
+        font-size: 2.5rem;
+    }
+
+    .circular-progress {
+        width: 90px;
+        height: 90px;
+        font-size: 14px;
+    }
+
+    .circular-progress .percentage {
+        font-size: 0.9rem;
+    }
+
     .category-card {
         background: #fff;
         border-radius: 16px;
